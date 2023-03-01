@@ -1,2 +1,4 @@
 # add_swap.sh
-add swap on ubuntu20
+```wget https://raw.githubusercontent.com/yosukira/add_swap.sh/main/add.sh
+chmod +x add.sh
+sudo ./add_swap.sh
