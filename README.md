@@ -3,7 +3,8 @@
 chmod +x add.sh
 sudo ./add_swap.sh
 
-```SWAP_SIZE=2048
+```
+SWAP_SIZE=2048
 sudo dd if=/dev/zero of=/swapfile bs=1M count=$SWAP_SIZE
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
