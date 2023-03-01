@@ -17,3 +17,6 @@ sudo swapon /swapfile
 
 # 让 swap 分区永久生效
 echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+
+# 显示是否完成
+sudo swapon --show
